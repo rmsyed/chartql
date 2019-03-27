@@ -2,6 +2,7 @@ Package: chartql
 Type: Package
 Title: Simplified Language for Plots and Charts
 Version: 0.1.0
+Maintainer: Rohail Syed <rohailsyed@gmail.com>
 Authors@R: person("Rohail", "Syed", email = "rohailsyed@gmail.com", role = c("aut", "cre"))
 Depends: ggplot2 (>= 2.1.0), stringr
 Description: ChartQL uses a very simple syntax for the user to specify what kind of
