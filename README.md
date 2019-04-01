@@ -52,9 +52,9 @@ All optional variable values must be enclosed in single-quotes.
 ```python
 dframe <- mtcars
 # transform to categorical
-dframe$cyl = factor(dframe$cyl);
-dframe$am = factor(dframe$am);
-dframe$vs = factor(dframe$vs);
+dframe\$cyl = factor(dframe\$cyl);
+dframe\$am = factor(dframe\$am);
+dframe\$vs = factor(dframe\$vs);
 ```
 
 \# Bar chart with number of cylinders on X and mpg value on Y. Default aggregation by ```mean```:
