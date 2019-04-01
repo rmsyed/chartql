@@ -25,7 +25,7 @@ The main variables that are required for all types of plots are:
 
 | Prefix | Argument | Description |
 | --- | --- | --- |
-|**Chart** |	<chart_type> |	`bar | scatter | hist | line`|
+|**Chart** |	<chart_type> |	`bar \| scatter \| hist \| line`|
 |**X**|  <x_var>, (<x_facet>) |				X-axis variable. May include a second categorical variable (comma separated)|
 |**Y** | y_var |				Y-axis variable. *Not used for hist.|
 
