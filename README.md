@@ -59,7 +59,7 @@ dframe$vs <- factor(dframe$vs);
 
 \# Bar chart with number of cylinders on X and mpg value on Y. Default aggregation by ```mean```:
 
-```python
+```r
 cql_str <- "CHART bar X cyl Y mpg";
 cql(dframe, cql_str);
 ```
@@ -69,7 +69,7 @@ cql(dframe, cql_str);
 
 \# Same as above but faceting unique number of cylinders by ```am``` (auto vs manual):
 
-```python
+```r
 cql_str <- "CHART bar X cyl, am Y mpg";
 cql(dframe, cql_str);
 ```
@@ -78,7 +78,7 @@ cql(dframe, cql_str);
 
 \# Bar chart with am color-coded purple vs orange:
 
-```ruby
+```r
 cql_str <- "CHART bar X cyl, am Y mpg Colorset '#990099, #FF9900'";
 cql(dframe, cql_str);
 ```
@@ -87,7 +87,7 @@ cql(dframe, cql_str);
 
 \# Bar chart with 95% confidence error bars
 
-```python
+```r
 cql_str <- "CHART bar X cyl, am Y mpg ConfInt '.95'";
 cql(dframe, cql_str);
 ```
@@ -96,7 +96,7 @@ cql(dframe, cql_str);
    
 \# Scatter plot of displacement vs mpg
 
-```python
+```r
 cql_str <- "CHART scatter X disp Y mpg";
 cql(dframe, cql_str);
 ```
@@ -105,7 +105,7 @@ cql(dframe, cql_str);
 
 \# Scatter plot faceted by number of cylinders
 
-```python
+```r
 cql_str <- "CHART scatter X disp, cyl Y mpg";
 cql(dframe, cql_str);
 ```
@@ -114,7 +114,7 @@ cql(dframe, cql_str);
 
 \# Scatter plot with linear fit and no standard error (SE) bands
 
-```python
+```r
 cql_str <- "CHART scatter X disp, cyl Y mpg Fit 'false'";
 cql(dframe, cql_str);
 ```
